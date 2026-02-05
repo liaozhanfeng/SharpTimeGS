@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SharpTimeGS's Project Page</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  </head>
+
+  <!-- cover -->
+  <section>
+    <div class="jumbotron text-center mt-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center">SharpTimeGS: </h2>
+            <h2 class="text-center">Sharp and Stable Dynamic Gaussian Splatting via Lifespan Modulation</h2>
+            <hr>
+            <h6 class="text-center">
+                <a href="https://liaozhanfeng.github.io/">Zhanfeng Liao</a>, 
+                <a href="">Jiajun Zhang</a>, 
+                <a href="">Hanzhang Tu</a>, 
+                <a href="">Zhixi Wang</a>, 
+                <a href="">Yunqi Gao</a>, 
+                <a href="https://hongwenzhang.github.io/">Hongwen Zhang</a>, 
+                <a href="http://www.liuyebin.com/">Yebin Liu</a></h6>
+
+            <div class="row justify-content-center">
+              <div class="column">
+                <p class="mb-5"><a class="btn btn-large btn-light" href="https://arxiv.org/abs/2602.02989" role="button"  target="_blank">
+                  <i class="fa fa-file"></i> ArXiv</a> </p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row">
+          <div class="col-12 text-center">
+            <h3>Method</h3>
+            <img src="assets/pipeline.jpg" width="1080" alt="">
+            <p class="text-left">
+              Fig 1.&nbsp;The pipeline of SharpTimeGS. We represent a dynamic scene using Gaussian primitives whose temporal visibility adapts to
+              the actual lifespan of each point. To achieve this, we introduce a lifespan-dependent parameter r that modulates the temporal Gaussian,
+              allowing a single primitive to accurately model its full lifespan. Moreover, through the modulation terms, the
+              static part can be completely static and still able to express dynamic parts (the static and fast dynamic regions will be transformed into
+              equations of motion in red and blue boxes, respectively). Note that the formulas in the boxes are only approximations. During optimization,
+              all Gaussian representations remain identical.  
+            </p>
+            <p>&nbsp;</p>
+            <hr>
+          </div>
+        </div>
+          
+        <div class="row">
+            <div class="col-12 text-center">
+              <video width="1080" height=""  muted autoplay="autoplay" loop="loop">
+                <source src="assets/open-source-dataset.mp4" type="video/mp4">
+              </video>
+              <p class="text-left">Fig 2.&nbsp;Results in open-source dataset.</p>
+            </div>
+          </div>
+
+
+        <div class="row">
+            <div class="col-12 text-center">
+              <p>&nbsp;</p>
+              <video width="1080" height=""  muted autoplay="autoplay" loop="loop">
+                <source src="assets/our-dataset.mp4" type="video/mp4">
+              </video>
+              <p class="text-left">Fig 3.&nbsp;Results in our dataset.</p>
+              <p>&nbsp;</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 text-center">
+              <p>&nbsp;</p>
+              <video width="1080" height=""  muted autoplay="autoplay" loop="loop">
+                <source src="assets/more-results.mp4" type="video/mp4">
+              </video>
+              <p class="text-left">Fig 4.&nbsp;More results in our dataset.</p>
+              <p>&nbsp;</p>
+            </div>
+          </div>
+
+        <div class="row">
+            <div class="col-12 text-center">
+              <p>&nbsp;</p>
+              <video width="1080" height=""  muted autoplay="autoplay" loop="loop">
+                <source src="assets/viewer.mp4" type="video/mp4">
+              </video>
+              <p class="text-left">Fig 5.&nbsp;Results in our viewer.</p>
+              <p>&nbsp;</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 text-center">
+              <p>&nbsp;</p>
+              <video width="1080" height=""  muted autoplay="autoplay" loop="loop">
+                <source src="assets/ipad.mp4" type="video/mp4">
+              </video>
+              <p class="text-left">Fig 6.&nbsp;Results in iPad.</p>
+              <p>&nbsp;</p>
+            </div>
+          </div>
+
+  </section>
+
+  <section>
+  <!-- citing -->
+  <div class="container">
+    <div class="row ">
+      <div class="col-12">
+          <h3>Citation</h3>
+              <pre style="background-color: #e9eeef;padding: 1.25em 1.5em">
+              <code>@article{liao2026sharptimegs,
+                      title={SharpTimeGS: Sharp and Stable Dynamic Gaussian Splatting via Lifespan Modulation},
+                      author={Liao, Zhanfeng and Zhang, Jiajun and Tu, Hanzhang and Wang, Zhixi and Gao, Yunqi and Zhang, Hongwen and Liu, Yebin},
+                      journal={arXiv e-prints},
+                      year={2026}
+                    }
+              </code></pre>
+          <hr>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
